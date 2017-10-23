@@ -1,0 +1,97 @@
+body{
+  background-image: url('http://ininger.me/img/bgmebs.png');
+  position: center top;
+  background-size: cover;
+}
+
+.terminal-wrapper{
+  width: 100%;
+  color:#6c8594;
+  font-family: monospace;
+}
+
+.header-text{
+display: table-cell;
+  vertical-align: middle;
+  padding-right: 55px;
+
+}
+
+.terminal-header{
+  margin: 0 auto;
+  width: 600px;
+  height: 30px;
+  background-color: #222D32;
+  display: table;
+
+}
+
+.terminal{
+  background-color:#050f15;
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.terminal-line{
+  padding-left: 3px;
+}
+/*
+.terminal-input{
+  background-color: #050f15;
+  border: none;
+  color: white;
+  font-family: monospace;
+  padding-left: 2px;
+  font-size: .9em;
+  width:400px;
+}
+*/
+
+.terminal-input:focus{
+  outline: none;
+}
+
+.sim{
+  color:white;
+  font-size: .85em;
+}
+
+.hideit{
+  display:none;
+}
+
+.web{
+  color: chartreuse;
+  font-size: .9em;
+}
+
+.web-content-wrapper{
+  text-align: center;
+}
+
+.link-wrapper{
+  text-align:center;
+}
+
+.link-wrapper a{
+  color: orange;
+  text-decoration: none;
+  padding: 0 40px;
+}
+
+.purple{
+  color: purple;
+}
+.red{
+  color: red;
+  font-weight:bolder;
+}
+.quit{
+  align: left;
+  font-weight: bolder;
+  color:red;
+}
+.work-experience{
+  padding-left: 10px;
+}
